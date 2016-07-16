@@ -2,12 +2,12 @@
 {% load staticfiles %}
 
 {% block content %}
-    <img src="{% static "biodata/2016-06-03 10.03.59.jpg" %}" style="width: 10%; height: 20%; " align="right" />
+    <img src="{% static "biodata/PIC.jpg" %}" style="width: 10%; height: 25%; " align="right" />
     {% for post in posts %}
     
         <div class="post">
 
-            <h1>{{ post.title }}</a></h1>
+            <h1><a href="{% url 'second_page' pk=post.pk %}">{{ post.title }}</a></h1>
             <p>{{ post.text|linebreaksbr }}</p>
         </div>
     {% endfor %}

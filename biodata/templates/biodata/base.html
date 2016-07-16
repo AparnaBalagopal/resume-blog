@@ -6,14 +6,40 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="{% static 'css/biodata.css' %}">
     <link href="//fonts.googleapis.com/css?family=Arial&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
     </head>
     <body>
        <div class="page-header">
        {% if user.is_authenticated %}
        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
        {% endif %}
-        <h1><center><a href="/">CURRICULAM VITAE</a></center></h1>
+        <h1><center>CURRICULAM VITAE</center></h1>
     </div>
+
+    <div id="wrap">
+          <ul class="navbar">
+             <li><a href="/">Home</a></li>
+             <li><a href="#">Acadamic Qualifications </a>
+                <ul>
+                   <li><a href="{% url 'niit' %}">PYTHON programming from NIIT</a></li>
+                   <li><a href="{% url 'bca' %}">BCA from Bharathiar University</a></li>
+                   <li><a href="{% url 'hse' %}">HSE from Board of Kerala </a></li>
+                   <li><a href="{% url 'sslc' %}">SSLC from Board of Kerala </a></li>
+                </ul>         
+             </li>
+             <li><a href="">Contact</a>
+                   
+             </li>
+            </ul> 
+</div>
+
     <div class="content container">
         <div class="row">
             <div class="col-md-16">

@@ -38,3 +38,16 @@ def page_edit(request, pk):
     else:
         form = PostForm(instance=post)
     return render(request, 'biodata/page_edit.html', {'form': form})
+
+
+def niit(request):
+    return render(request,"biodata/niit.html")
+
+def bca(request):
+    return render(request,"biodata/bca.html")
+
+def hse(request):
+    return render(request,"biodata/hse.html")
+
+def sslc(request):
+    return render(request,"biodata/sslc.html")
