@@ -3,15 +3,18 @@ h1 a {
     font-family: 'Arial';
 }
 body {
+	
     padding-left: 0px;
 
 }
 .page-header {
-	height: 150px;
+ 	
+ 	border-radius: 14px;
+  	background-position: 100px;
+	height: 120px;
     background-color: #ED1A72;
-    margin-top: 0;
-
-    padding: 20px 20px 20px 40px;
+    margin-top: 0px;
+	padding: 20px 20px 20px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -59,6 +62,7 @@ h1, h2, h3, h4 {
 
 
 #wrap	{
+
 	width: 100%; /* Spans the width of the page */
 	height: 50px; 
 	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
