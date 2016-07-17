@@ -3,7 +3,7 @@ h1 a {
     font-family: 'Arial';
 }
 body {
-	
+
     padding-left: 0px;
 
 }
@@ -15,6 +15,17 @@ body {
     background-color: #ED1A72;
     margin-top: 0px;
 	padding: 20px 20px 20px 40px;
+	animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: 15;
+}
+
+@keyframes example {
+    0%   {background-color: #ED1A72;}
+    25%  {background-color: #F2E233;}
+    50%  {background-color: #2B07F2;}
+    75% {background-color: #0B9624;}
+    100% {background-color: #ED1A72}
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
