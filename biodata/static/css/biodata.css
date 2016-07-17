@@ -17,15 +17,15 @@ body {
 	padding: 20px 20px 20px 40px;
 	animation-name: example;
     animation-duration: 10s;
-    animation-iteration-count: 15;
+    animation-iteration-count: infinite;
 }
 
 @keyframes example {
     0%   {background-color: #ED1A72;}
-    25%  {background-color: #F2E233;}
-    50%  {background-color: #2B07F2;}
-    75% {background-color: #0B9624;}
-    100% {background-color: #ED1A72}
+    25%  {background-color: #E6E46E;}
+    50%  {background-color: #F089F0;}
+    75% {background-color: #A2D698;}
+    100% {background-color: #89F0EB}
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -33,6 +33,19 @@ body {
     font-size: 36pt;
     font-family: 'Leckerli One';
     text-decoration: none;
+
+    -webkit-animation: blink 1s linear infinite;
+  -moz-animation: blink 1s linear infinite;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {  
+  0% { color: #F7FAFA; }
+  100% { color: #070808; }
+}
+@-webkit-keyframes blink {
+  0% { color: red; }
+  100% { color: black; }
 }
 
 .content {
