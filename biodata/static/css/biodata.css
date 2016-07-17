@@ -16,7 +16,7 @@ body {
     margin-top: 0px;
 	padding: 20px 20px 20px 40px;
 	animation-name: example;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
@@ -30,23 +30,14 @@ body {
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
-    font-size: 36pt;
+    font-size: 45pt;
+    
     font-family: 'Leckerli One';
     text-decoration: none;
 
-    -webkit-animation: blink 1s linear infinite;
-  -moz-animation: blink 1s linear infinite;
-  animation: blink 1s linear infinite;
+
 }
 
-@keyframes blink {  
-  0% { color: #F7FAFA; }
-  100% { color: #070808; }
-}
-@-webkit-keyframes blink {
-  0% { color: red; }
-  100% { color: black; }
-}
 
 .content {
     margin-left: 40px;
