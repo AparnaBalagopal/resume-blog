@@ -11,5 +11,6 @@ urlpatterns = [
 	url(r'^bca/$', views.bca, name='bca'),
 	url(r'^hse/$', views.hse, name='hse'),
 	url(r'^sslc/$', views.sslc, name='sslc'),
+	url(r'^contact/$', views.contact, name='contact'),
 
 ]

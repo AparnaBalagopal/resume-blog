@@ -6,7 +6,7 @@ body {
     padding-left: 0px;
 }
 .page-header {
-    background-color: #ff9400;
+    background-color: #F075CF;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -14,6 +14,7 @@ body {
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
     font-size: 36pt;
+    font-family: 'Leckerli One';
     text-decoration: none;
 }
 
@@ -115,3 +116,29 @@ h1, h2, h3, h4 {
 		}
 				
 .navbar li ul li a:hover	{background-color: #366b82;}
+
+.niit {
+	color: #03011A;
+	font-family: 'Lobster';
+
+}
+
+.bca {
+	color: #03011A;
+	font-family: 'Lobster';
+}
+
+.hse {
+	color: #03011A;
+	font-family: 'Lobster';
+}
+
+.sslc {
+	color: #03011A;
+	font-family: 'Lobster';
+}
+
+.contact {
+	color: #03011A;
+	font-family: 'Lobster';
+}

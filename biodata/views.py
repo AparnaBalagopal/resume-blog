@@ -51,3 +51,6 @@ def hse(request):
 
 def sslc(request):
     return render(request,"biodata/sslc.html")
+
+def contact(request):
+    return render(request,"biodata/contact.html")
