@@ -21,10 +21,10 @@ body {
 }
 
 @keyframes example {
-    0%   {background-color: #89F0EB;}
+    0%   {background-color: #ffffff;}
     20%  {background-color: #ED1A72;}
     40%  {background-color: #F089F0;}
-    60% {background-color: #A2D698;}
+    60% {background-color: #F2DA3A;}
     80% {background-color: #F77979;}
     100% {background-color: #ffffff;}
 }
