@@ -9,7 +9,7 @@ body {
 }
 .page-header {
  	
- 	border-radius: 14px;
+ 	border-radius: 30px;
   	background-position: 100px;
 	height: 120px;
     background-color: #ED1A72;
@@ -168,6 +168,7 @@ h1, h2, h3, h4 {
 }
 
 .contact {
-	color: #03011A;
+	color: #000000;
 	font-family: 'Lobster';
+	
 }

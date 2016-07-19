@@ -2,14 +2,17 @@
 {% load staticfiles %}
 
 {% block content %}
-    <br><br><br><br><img src="{% static "biodata/PIC.jpg" %}" style="width: 12%; height: 25%; " align="left" />  <h1 align="right">Aparna.V</h1><p align="right">Ittam veedu <br>Mulanjur (p.o) <br>Ottapalam<br>Palakkad (dt),Kerala<br>Pin code-679511</p>
+    <br><br><br><br><img src="{% static "biodata/PIC.jpg" %}" style="width: 12%; height: 25%; " align="left" />  <h1 align="right"><b>Aparna.V</h1></b><p align="right"><font size="3">Ittam veedu<br>Mulanjur (p.o)<br>Ottapalam<br>Palakkad (dt),Kerala<br>Pin code-679511</p>
     
     {% for post in posts %}
     
         <div class="post">
 
             <h1>{{ post.title }}</a></h1>
-            <p>{{ post.text|linebreaksbr }}</p>
+            <p><font size="3"> {{ post.text|linebreaksbr }}</p>
         </div>
+
+
     {% endfor %}
+    <h3 align="right">APARNA V</h3>
 {% endblock %}
